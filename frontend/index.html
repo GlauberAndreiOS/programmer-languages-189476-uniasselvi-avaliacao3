@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Carro</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Cadastro</a> |
+        <a href="listagem.html">Listagem</a>
+    </nav>
+
+    <h1>Adicionar Novo Carro</h1>
+    <form id="add-car-form">
+        <div id="dynamic-fields-container"></div>
+        <button type="submit">Salvar</button>
+    </form>
+
+    <div id="message" style="margin-top: 10px;"></div>
+
+    <script src="src/js/api.js"></script>
+    <script src="src/model/car.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

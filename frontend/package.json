@@ -1,0 +1,9 @@
+{
+  "name": "frontend-avaliacao3",
+  "version": "1.0.0",
+  "description": "Frontend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
